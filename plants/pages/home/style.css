@@ -418,7 +418,8 @@ body {
   line-height: 52px;
   color: #499A18;
   margin: 0;
-  margin-top: 9px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .contact__choise {
