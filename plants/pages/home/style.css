@@ -48,6 +48,10 @@ body {
   text-decoration: none;
   color: #010201;
 }
+.header__wrapper .header__list .header__item .header__link:hover {
+  color: #E06733;
+  transition: all 1s ease-out;
+}
 .header__wrapper .header__list .header__item .header__link .header__item-first {
   font-weight: 700;
   color: #E06733;

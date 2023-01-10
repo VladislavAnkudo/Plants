@@ -40,6 +40,10 @@ body{
             .header__link{
                 text-decoration: none;
                 color: #010201;
+                &:hover{
+                    color: #E06733;
+                    transition: all 1s ease-out;
+                }
                 .header__item-first{
                     font-weight: 700;
                     color: #E06733;
