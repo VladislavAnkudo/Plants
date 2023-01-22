@@ -27,8 +27,6 @@ class ItcAccordion {
   new ItcAccordion('#accordion-1');
 
 
- 
-
   let header1 = document.querySelector(".header1");
   let header2 = document.querySelector(".header2");
   let header3 = document.querySelector(".header3");
@@ -41,3 +39,17 @@ class ItcAccordion {
   header3.addEventListener("click", function() {
     this.classList.toggle("active");
   });
+
+
+(function (){
+  const burgerItem = document.querySelector('.burger');
+  const menu = document.querySelector('.header__nav');
+  const menuclose = document.querySelector('.header__nav-close');
+
+  burgerItem.addEventListener('click', () => {
+    menu.classList.add('header__nav_active');
+  });
+  menuclose.addEventListener('click', () => {
+    menu.classList.remove('header__nav_active');
+  });
+}());
