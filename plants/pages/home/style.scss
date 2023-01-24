@@ -162,6 +162,7 @@ body{
                 }
             }
             .about__subtitle{
+                font-family: 'Inter';
                 padding-left: 9px;
                 max-width: 605px;
                 font-weight: 400;
@@ -569,7 +570,7 @@ body{
     }
     .main .service .service__full{
         padding-top: 60px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         gap: 42px;
     }
     .main .service .service__title{
@@ -709,9 +710,180 @@ body{
             transform: translateY(-50%) rotate(-45deg);
         }
     }
-    
-
+    .welcome__leafs{
+        display: none;
+    }
+    .header__wrapper{
+        padding-top: 36px;
+        padding-bottom: 10px;
+    }
+    .main .welcome__wrapper .welcome__text .welcome__title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main .welcome__wrapper .welcome__text .welcome__subtitle{
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 22px; 
+        margin-bottom: 25px; 
+    }
+    .main .welcome{
+        padding-top: 24px;
+        padding-bottom: 24px;   
+    }
+    .main .welcome__wrapper .welcome__text .welcome__buton{
+        font-size: 10px;
+        line-height: 20px;
+        width: 100px;
+        height: 34px;
+    }
+    .main .about__wrapper .about__text .about__title{
+        max-width: 288px;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 0px;
+        margin-bottom: 13px;
+    }
+    .main .about__wrapper{
+        margin-top: 30px;
+        margin-bottom: 4px;
+        justify-content: center;
+    }
+    .main .about__wrapper .about__text .about__subtitle{
+        padding-left: 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main .about__wrapper .plant{
+        max-width: 150px;
+        height: 147px;
+    }
+    .main .service .service__full{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        gap: 38px;
+    }
+    .main .service .service__full .service__buttons{
+        gap: 10px;
+    }
+    .main .service .service__full .service__buttons .gardenes{
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .main .service .service__title{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .service__image{
+        max-width: 280px;
+        height: 350px;
+    }
+    .main .service__plant{
+        max-width: 280px;
+    }
+    .main .service__plants{
+        gap: 34px;
+        justify-content: center;
+    }
+    .main .service__wrapper{
+        padding-bottom: 27px;
+    }
+    .price__title-text{
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 37px;
+        text-align: center;
+    }
+    .prices__accordion{
+        justify-content: center;
+    }
+    .prices__title-description{
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 35px;
+        max-width: 230px;
+        position: absolute;
+        bottom: 56px;
+        left: 52px;
+        text-align: center;
+    }
+    .accordion{
+        padding: 27.5px 21px;
+    }
+    .accordion__header{
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 30px;
+    }
+    .accordion__item{
+        width: 180px;
+        margin-bottom: 14px;
+    }
+    .prices__title{
+        display: block;
+    }
+    .prices__wrapper{
+        position: relative;
+        margin-top: 25px;
+    }
+    .prices__left-button {
+        margin-top: 110px;
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .prices__left-img{
+       display: none;
+    }
+    .contact{
+        margin-top: 40px;
+    }
+    .contact__title{
+        top: 0;
+        margin-top: 25px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .contact__choise{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 0;
+    }
+    .contact_woman{
+        max-width: 100px;
+        margin-top: 132px;
+    }
     .choise__select{
         width: 300px;
+    }
+    .contact__selection{
+        padding-top: 139px;
+    }
+    .footer__wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+        padding-top: 22px;
+        line-height: 21px;
+        gap: 16px;
+    }
+    .footer__item{
+        padding-top: 0;
+        height: 42px;
+    }
+    .footer__center-link{
+        padding-left: 0;
+        line-height: 24px;
+    }
+    .footer__left-menu, .footer__right-menu, .footer__center-menu{
+        line-height: 24px;
+    }
+    .footer__nav{
+        padding-top: 0;
     }
 }  
