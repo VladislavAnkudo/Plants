@@ -106,19 +106,19 @@
                         Service and our projects
                     </h2>
                     <div class="service__buttons">
-                        <button class="gardenes">
+                        <button class="gardenes btn__garden">
                             Gardens
                         </button>
-                        <button class="gardenes">
+                        <button class="gardenes btn__lawn">
                             Lawn
                         </button>
-                        <button class="gardenes">
+                        <button class="gardenes btn__planting">
                             Planting
                         </button>
                     </div>
                 </div>
                 <div class="service__plants">
-                    <div class="service__plant">
+                    <div class="service__plant garden__blur">
                         <img src="../../asetts/images/Garden.png" alt="Garden" class="service__image">
                         <div class="service__plant-title">
                             Garden care
@@ -154,7 +154,7 @@
                             Lorem Ipsum has been the industry
                         </div>
                     </div>
-                    <div class="service__plant">
+                    <div class="service__plant garden__blur">
                         <img src="../../asetts/images/care.png" alt="Garden" class="service__image">
                         <div class="service__plant-title">
                             Garden care
@@ -190,7 +190,7 @@
                 <div class="prices__accordion">
                     <div class="accordion" id="accordion-1">
                         <div class="accordion__item ">
-                            <div class="accordion__header header1">
+                            <div class="accordion__header">
                                 Basics
                             </div>
                             <div class="accordion__body">
@@ -201,12 +201,12 @@
                                     <span class="price__span">$15</span> / per hour
                                 </div>
                                 <button class="body__button">
-                                    Order
+                                    <a class="acc__link" href="#contact">Order</a>
                                 </button>
                             </div>
                         </div>
                         <div class="accordion__item">
-                            <div class="accordion__header header2">
+                            <div class="accordion__header">
                                 Standard
                             </div>
                             <div class="accordion__body">
@@ -217,12 +217,12 @@
                                     <span class="price__span">$25</span> / per hour
                                 </div>
                                 <button class="body__button">
-                                    Order
+                                    <a class="acc__link" href="#contact">Order</a>
                                 </button>
                             </div>
                         </div>
                         <div class="accordion__item">
-                            <div class="accordion__header header3">
+                            <div class="accordion__header">
                                 Pro care
                             </div>
                             <div class="accordion__body">
@@ -233,7 +233,7 @@
                                     <span class="price__span">$35</span> / per hour
                                 </div>
                                 <button class="body__button">
-                                    Order
+                                    <a class="acc__link" href="#contact">Order</a>
                                 </button>
                             </div>
                         </div>
@@ -257,13 +257,30 @@
                     <img src="../../asetts/images/contact_woman.png" alt="woman" class="contact_woman">
                     <h2 class="contact__title">Contact us</h2>
                     <div class="contact__selection">
-                        <select class="choise__select">
-                            <option value="0">City</option>
-                            <option value="1">Canandaigua, NY</option>
-                            <option value="2">New York City</option>
-                            <option value="3">Yonkers, NY</option>
-                            <option value="4">Sherrill, NY</option>
-                        </select>
+                        <div class="dropdown">
+                            <button class="dropdown__btn"> City </button>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item" data-value="canada">Canandaigua, NY</li>
+                                <li class="dropdown__item" data-value="new">New York City</li>
+                                <li class="dropdown__item" data-value="yonk">Yonkers, NY</li>
+                                <li class="dropdown__item" data-value="sherr">Sherrill, NY</li>
+                            </ul>
+                        </div>
+                        <div class="contact__information">
+                            <div class="contact__info-form">
+                                <div class="contact__info-left">
+                                    <div class="contact__name">City:</div>
+                                    <div class="contact__name">Phone:</div>
+                                    <div class="contact__name">Office adress:</div>
+                               </div>
+                               <div class="contact__info-right">
+                                    <div class="contact__name-inner" id="city"></div>
+                                    <div class="contact__name-inner" id="phone"></div>
+                                    <div class="contact__name-inner" id="adress"></div>
+                                </div>
+                            </div>
+                            <button class="contact__call"><a href="" class="numb_call">call us </a></button>
+                        </div>
                     </div>
                 </div>
             </div>
